@@ -1,0 +1,8 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scoreIcons img {
+  height: 30px;
+}

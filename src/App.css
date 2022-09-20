@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+#mainBoard {
+  padding-top: 5vh;
+  display: grid;
+  place-content: center;
+}

@@ -1,0 +1,60 @@
+#board {
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(8,50px);
+    grid-template-rows: repeat(8,50px);
+    width: 400px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid black;
+}
+
+.menu:not(.move) {
+    display: flex;
+    justify-content: center;
+}
+
+
+.action {
+    margin: 4px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.move {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+
+.action:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.boardContainer {
+    display: flex;
+    justify-content: center;
+    margin-left: -30px;
+}
+
+.letterBar {
+    margin-top: -8px;
+    margin-right: -25px;
+    margin-left: 5px;
+    display: grid;
+}
+
+.numberBar {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 380px;
+    height: 40px;
+}
+
+#bottomNumberBar {
+    margin-top: -30px;
+}
+
